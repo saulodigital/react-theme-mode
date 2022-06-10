@@ -5,7 +5,7 @@ function App() {
   return (
     <main>
       <h1>React Theme Mode</h1>
-      <p>Switch between light and dark mode using CSS classes.</p>
+      <p>Switch between light and dark theme mode.</p>
       <ThemeMode />
     </main>
   );
