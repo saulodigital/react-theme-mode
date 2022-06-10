@@ -20,7 +20,7 @@ const ThemeMode = () => {
     localTheme
       ? setMode(localTheme)
       : preferTheme ? setMode('dark') : setMode('light');
-  }, [theme]);
+  });
 
   const switchTheme = () => {
     theme === 'light' ? setMode('dark') : setMode('light');
